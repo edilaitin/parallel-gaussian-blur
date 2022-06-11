@@ -50,7 +50,7 @@ int setBoundary(int i, int min, int max);
 __global__ void perform(int nStart, int nStop, int width, int height, int radius, unsigned char *red, unsigned char *green, unsigned char *blue)
 {
     printf("HERE");
-    int t = threadIdx.x;
+    // int t = threadIdx.x;
     for (int i = nStart; i < nStop; i++)
     {
         for (int j = 0; j < width; j++)
