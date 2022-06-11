@@ -9,7 +9,7 @@ The Gaussian blur is a type of image-blurring filter that uses a Gaussian functi
 
 # Results
 
-## Running with an image of <b>size 40 mb and radius 10 on 24 core CPU</b> for the gaussian blur we got the following results:
+## Running with an image of <b>size 40 mb on 24 core CPU</b> for the gaussian blur with radius 10 we got the following results:
 
 
 | Attempt | Serial | OpenMP  | Mpi 4 cores | Mpi 8 cores | Mpi 12 cores | Mpi 24 cores |  
