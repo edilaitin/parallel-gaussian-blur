@@ -14,7 +14,7 @@ The Gaussian blur is a type of image-blurring filter that uses a Gaussian functi
 
 | Attempt | Serial | OpenMP  | Mpi 4 cores | Mpi 8 cores | Mpi 12 cores | Mpi 24 cores |  
 | :-----: | :----: | :-----: | :---------: | :---------: | :----------: | :----------: |
-| Seconds | 99     |   10    |          58 |          32 |           24 |              |
+| Seconds | 99     |   10    |          58 |          32 |           24 |          14  |
 
 ![](results.png)
 
